@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add passport-github
+
+PATH: 
+  C:\Cmder\bin;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\SCE\ORBIS SDKs\5.500\host_tools\bin;C:\Program Files (x86)\SCE\ORBIS\Tools\Target Manager Server\bin;C:\Program Files (x86)\SCE\ORBIS\Tools\Publishing Tools\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_171\bin\bin;C:\Program Files\Java\jdk1.8.0_171\bin\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Cmder;C:\Users\ziwei\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Amazon\AWSCLI\;C:\PostgreSQL\pg10\bin;C:\Program Files\Redis\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\ziwei\AppData\Roaming\npm;C:\Users\ziwei\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\ziwei\AppData\Local\Programs\Fiddler;C:\Gradle\gradle-4.7\bin;C:\android-ndk-r16b;C:\Users\ziwei\AppData\Local\Microsoft\WindowsApps;C:\Users\ziwei\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ziwei\AppData\Local\now-cli;C:\Users\ziwei\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\ziwei\AppData\Local\Yarn\Cache\v2\npm-define-property-2.0.2-d459689e8d654ba77e02a817f8710d702cb16e9d\CHANGELOG.md' -> 'D:\DemoProject\AdvancedNodeStarter\node_modules\anymatch\node_modules\define-property\CHANGELOG.md'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "server": "nodemon index.js --ignore tests",
+      "client": "npm run start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "build":
+        "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+      "heroku-postbuild": "npm run build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "aws-sdk": "^2.188.0",
+      "body-parser": "^1.17.2",
+      "concurrently": "^3.5.0",
+      "cookie-session": "^2.0.0-beta.2",
+      "express": "^4.15.3",
+      "jest": "^22.1.4",
+      "migrate-mongoose": "^3.2.2",
+      "mongoose": "^4.11.1",
+      "nodemon": "^1.11.0",
+      "passport": "^0.3.2",
+      "passport-google-oauth20": "^1.0.0",
+      "path-parser": "^2.0.2",
+      "puppeteer": "^1.0.0",
+      "redis": "^2.8.0",
+      "uuid": "^3.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
