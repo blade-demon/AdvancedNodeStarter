@@ -1,2 +1,3 @@
 # AdvancedNodeStarter
-Starting project for a course on Advanced Node @ Udemy
+
+包含 redis,mongodb,github oauth2 用户登录
