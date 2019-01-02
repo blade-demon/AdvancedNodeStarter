@@ -14,17 +14,17 @@ afterEach(async () => {
 test("the header has the correct text", async () => {
   const text = await page.getContentsOf("a.brand-logo");
   expect(text).toEqual("Blogster");
-});
+}, 10000);
 
 test("clicking login start oauth flow", async () => {
   await page.waitFor(".right a");
   await page.click(".right a");
   const url = await page.url();
   expect(url).toMatch(/https:\/\/github\.com/);
-});
+}, 10000);
 
 test("when signed in, show logout button", async () => {
   await page.login();
   const text = await page.getContentsOf("a[href='/auth/logout']");
   expect(text).toEqual("Logout");
-});
+}, 10000);
