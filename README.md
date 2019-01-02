@@ -1,6 +1,6 @@
 # AdvancedNodeStarter
 
-包含 redis,mongodb,github oauth2 用户登录等功能。
+包含 redis,mongodb,github oauth2 用户登录, Puppeteer 端到端测试, Continuous Integration 等
 
 ##开始使用
 
