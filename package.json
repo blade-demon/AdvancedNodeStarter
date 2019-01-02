@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "jest": {
-    "setTimeout": "10000",
     "setupTestFrameworkScriptFile": "./tests/setup.js",
     "testURL": "http://localhost"
   },
