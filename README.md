@@ -1,6 +1,6 @@
 # AdvancedNodeStarter
 
-包含 redis,mongodb,github oauth2 用户登录, Puppeteer 端到端测试, Continuous Integration 等
+包含 redis,mongodb,github oauth2 用户登录, Puppeteer 端到端测试, Travis CI, AWS S3 等功能集成
 
 ##开始使用
 
