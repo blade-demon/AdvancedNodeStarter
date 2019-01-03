@@ -5,5 +5,7 @@ module.exports = {
   githubClientID: "1ccfc9213fed0cc3aa2f",
   githubClientSecret: "773f4b15008557abcb29b095fff369b36acd7e10",
   mongoURI: "mongodb://ziwei:xzw1989!@ds127954.mlab.com:27954/blog",
-  cookieKey: "123123123"
+  cookieKey: "123123123",
+  accessKeyId: "AKIAIULVC3KFARB6KVXA",
+  secretAccessKey: "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"
 };
